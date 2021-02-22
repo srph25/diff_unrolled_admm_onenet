@@ -82,3 +82,7 @@ load_\*.py : data set loader scripts\
 solver_\*.py : ADMM with various priors\
 layers\*.py : custom TensorFlow layers
 
+
+### Contact:
+In case of any questions, feel free to create an issue here on GitHub, or mail me at [srph25@gmail.com](mailto:srph25@gmail.com).
+
