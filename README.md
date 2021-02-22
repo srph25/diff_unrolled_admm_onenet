@@ -68,8 +68,8 @@ python3.7 -m IPython test.py --data_set imagenet --n_test_images 500 --pretraine
 
 where `your_celeb_diff_admm` and `your_imagenet_diff_admm` are your results subdirectories created under the `model` directory during training.
 
-For single GPU (8 Gb): use batch_size 5 and 100000 training iterations.\
-For dual GPU (2*8 Gb): use batch_size 10 and 50000 training iterations.
+For single GPU (8 Gb): use `--batch_size 5` and 100000 training iterations.\
+For dual GPU (2*8 Gb): use `--batch_size 10 --gpus 2` and 50000 training iterations.
 
 These should yield very similar numbers as in the table of our paper.
 
