@@ -5,7 +5,8 @@ Code is mostly self-explanatory via file, variable and function names; but more 
 Designed to require minimal setup overhead.\
 Note: This implementation is based on the [original OneNet project by Rick Chang](https://github.com/rick-chang/OneNet).\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Huge kudos to him and his co-authors.\
-Note: I have added support for Instance Normalization instead of the very old Batch Normalization variant used in the original source.\
+Note: I have added support for Instance Normalization instead of the very old Batch Normalization variant used in the\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;original source.\
 Note: The code is still a bit messy. I may conduct further refactoring over time.\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For a better Keras implementation with MIT license, see [video version](https://github.com/srph25/videoonenet).\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You can simply use _data['frames']=1 there to fall back to the image case addressed here.
