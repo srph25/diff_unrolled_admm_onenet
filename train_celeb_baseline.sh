@@ -1,7 +1,7 @@
 IMG_SIZE=64
 TRIAL=1
 PRETRAIN_RECON=0
-BATCH_SIZE=25  # reference batch included
+BATCH_SIZE=10  # reference batch included
 N_REFERENCE=0
 DPERIOD=1
 GPERIOD=1

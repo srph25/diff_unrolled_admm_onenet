@@ -1,6 +1,6 @@
 import sys
 sys.path.append("../projector")
-import main as model
+import train
 import tensorflow as tf
 import numpy as np
 import scipy as sp
@@ -600,13 +600,13 @@ for idx in idxs :
             use_instance_norm = True
             use_elu_like = False
             use_custom_image_resize = False
-            proj, latent = model.build_projection_model(images_tf, is_train, n_reference, use_bias=True, use_instance_norm=use_instance_norm, use_elu_like=use_elu_like, use_custom_image_resize=use_custom_image_resize, reuse=None)
+            proj, latent = train.build_projection_model(images_tf, is_train, n_reference, use_bias=True, use_instance_norm=use_instance_norm, use_elu_like=use_elu_like, use_custom_image_resize=use_custom_image_resize, reuse=None)
         else:
             use_instance_norm = True
             use_elu_like = True
             use_custom_image_resize = True
             with tf.variable_scope('fp32_storage'):
-                proj, latent = model.build_projection_model(images_tf, is_train, n_reference, use_bias=True, use_instance_norm=use_instance_norm, use_elu_like=use_elu_like, use_custom_image_resize=use_custom_image_resize, reuse=None)
+                proj, latent = train.build_projection_model(images_tf, is_train, n_reference, use_bias=True, use_instance_norm=use_instance_norm, use_elu_like=use_elu_like, use_custom_image_resize=use_custom_image_resize, reuse=None)
 
         with tf.variable_scope("PROJ") as scope:
             scope.reuse_variables()

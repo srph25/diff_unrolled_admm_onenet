@@ -18,7 +18,6 @@ import inpaint as problem_inpaint
 import inpaint_center as problem_inpaint_center
 import inpaint_block as problem_inpaint_block
 import superres as problem_superres
-import cs as problem_cs
 from noise import add_noise
 import datetime
 #from scipy import sparse
