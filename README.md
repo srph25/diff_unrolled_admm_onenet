@@ -1,6 +1,6 @@
 # Differentiable Unrolled Alternating Direction Method of Multipliers for OneNet
 ## Python source code for reproducing the experiments described in the paper
-[Paper](https://bmvc2019.org/wp-content/uploads/papers/0717-paper.pdf)\
+[Paper (.pdf)](https://bmvc2019.org/wp-content/uploads/papers/0717-paper.pdf)\
 \
 Code is mostly self-explanatory via file, variable and function names; but more complex lines are commented.\
 Designed to require minimal setup overhead.\
